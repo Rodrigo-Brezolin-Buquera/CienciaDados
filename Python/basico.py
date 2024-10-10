@@ -129,3 +129,6 @@ print(dictionary['gato'])
 dictionary.keys()
 dictionary['swan'] = 'cygne'
 del dictionary['cachorro']
+
+# tupla
+tuple = ("a", "b")
