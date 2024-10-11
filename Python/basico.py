@@ -97,7 +97,7 @@ except: # ou except Exception as err:  para acessar o erro em si
   print("não foi digitado um número")
 
 # Vetores(Arrays)
-vetor = [1, "abc", true] # Declaração
+vetor = [1, "abc", True] # Declaração
 vetor[0]                 # Acessando o primeiro item (0)
 vetor[1]                 # Acessando o segundo item (1)
 

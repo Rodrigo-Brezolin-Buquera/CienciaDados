@@ -31,3 +31,15 @@ z2 = zip(array, arr2)
 # print(list(z1), list(z2))
 
 # Reduce
+# operação acumulativa em uma sequência de dados 
+
+from functools import reduce
+
+def multiply(x, y):
+    return x * y
+
+result = reduce(multiply, array)
+# ou
+result1 = reduce(lambda x, y: x * y, array)
+
+print(result1) 
