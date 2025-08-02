@@ -1,0 +1,25 @@
+criar ambiente
+
+python3 -m venv venv
+
+
+ativar ambiente
+source venv/bin/activate
+
+instalar libs dentro do ambiente
+
+pip install -r arquivo.txt
+no arquivo deve contem as libs e versões
+
+pra desativar
+
+deactivate
+
+poetry versão mais atualizado
+
+criar
+poetry new none
+
+add lib
+poetry add pandas  
+poetry add ipykernel  
